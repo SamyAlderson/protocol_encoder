@@ -1,16 +1,23 @@
 # Design Document: protocol_encoder
 
 ## Overview
-Implémentation d'un encodeur de protocole générique en Rust
+# protocol_encoder
+[![Rust][1]][2]
+[![MIT Licence][3]][4]
+[![CI][5]][6]
+
+## Description
+
+Le projet `protocol_encoder` est une implémentation d'un encodeur de protocole générique en Rust. Son objectif 
 
 ## Architecture
-Le projet est structuré de manière modulaire pour faciliter la maintenance.
+The project follows a modular architecture for maintainability and extensibility.
 
-## Choix techniques
-- Langage: rust
-- Approche: Implementation directe avec focus sur la performance
+## Technical Choices
+- Language: rust
+- Approach: Direct implementation with focus on correctness and performance
 
-## Améliorations futures
-- Optimisation des performances
-- Ajout de tests supplémentaires
-- Documentation enrichie
+## Future Improvements
+- Performance optimization
+- Additional test coverage
+- Enhanced documentation
