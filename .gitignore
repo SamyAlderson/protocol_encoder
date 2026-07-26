@@ -1,12 +1,17 @@
-__pycache__/
-*.pyc
-.pytest_cache/
-.env
-*.egg-info/
-dist/
-build/
-.venv/
+# .gitignore
+
+# ignore node_modules directory
 node_modules/
+
+# ignore rust artifacts
 target/
-bin/
-obj/
+
+# ignore IDE files
+.idea/
+.vscode/
+
+# ignore VS Code settings
+.vscode/settings.json
+
+# ignore VS Code launch config
+.vscode/launch.json
